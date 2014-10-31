@@ -245,6 +245,7 @@ const void * const MDCViewStateKey = &MDCViewStateKey;
         // Update the position and transform. Then, notify any listeners of
         // the updates via the pan block.
         CGPoint translation = [panGestureRecognizer translationInView:view];
+        translation.y = 0;
         view.center = MDCCGPointAdd(self.mdc_viewState.originalCenter, translation);
         [self mdc_rotateForTranslation:translation
                      rotationDirection:self.mdc_viewState.rotationDirection];
