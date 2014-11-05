@@ -49,6 +49,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DA5B73B218F2330B00BB5F8E"
+            BuildableName = "libMDCSwipeToChoose.a"
+            BlueprintName = "MDCSwipeToChoose"
+            ReferencedContainer = "container:MDCSwipeToChoose.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
